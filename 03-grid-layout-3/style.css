@@ -1,91 +1,31 @@
-* {
-  margin: 0;
-  padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Moon+Dance&family=Roboto+Condensed:wght@300;400;700&display=swap");
+
+:root {
+  --header-text: "Moon Dance", cursive;
+  --body-text: "Roboto Condensed", sans-serif;
+  --footer-text: "Anton", sans-serif;
 }
 
-.container {
-  text-align: center;
+html,
+body {
+  margin: 0%;
+  padding: 0%;
 }
 
-.container div {
-  padding: 15px;
-  font-size: 32px;
-  font-family: Helvetica;
-  font-weight: bold;
-  color: white;
+.header-con {
+  display: grid;
+  grid-template-columns: 2fr repeat(4, 1fr);
+  grid-template-rows: auto;
+  background-color: #151522;
+  height: 5vh;
 }
 
-.header {
-  background-color: #393f4d;
+.body-con {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  background-color: red;
+  height: 100vh;
 }
 
-.menu ul,
-.menu li {
-  font-size: 16px;
-}
-
-.sidebar {
-  background-color: #FF7755;
-}
-
-.sidebar .photo {
-  background-color: white;
-  color: black;
-  font-size: 12px;
-  font-weight: normal;
-  border-radius: 10px;
-}
-
-
-.sidebar .side-content {
-  background-color: white;
-  color: black;
-  font-size: 16px;
-  font-weight: normal;
-}
-
-.nav {
-  background-color: #FF7755;
-}
-
-.nav ul li {
-  font-size: 16px;
-  text-transform: uppercase;
-}
-
-.article {
-  background-color: #bccbde;
-}
-
-.article p {
-  font-size: 18px;
-  font-family: sans-serif;
-  color: white;
-  text-align: left;
-}
-
-.article .card {
-  background-color: #FFFFFF;
-  color: black;
-  text-align: center;
-}
-
-.card p {
-  color: black;
-  font-weight: normal;
-  font-size: 14px;
-}
-
-.card .title {
-  font-size: 18px;
-  text-align: center;
-}
-
-.footer {
-  background-color: #393f4d;
-}
-
-.footer p {
-  font-size: 13px;
-  font-weight: normal;  
+.footer-con {
 }
