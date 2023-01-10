@@ -21,7 +21,7 @@ body {
 .container {
   display: grid;
   grid-template-columns: 1fr 3fr;
-  grid-template-rows: repeat(2, 1fr) 5fr 1fr;
+  grid-template-rows: 0.5fr 0.3fr 5fr 0.5fr;
   gap: 5px;
   height: 100vh;
   width: 100vw;
@@ -29,15 +29,25 @@ body {
 
 .header {
   grid-column: 1 / 3;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
   background-color: var(--header-bg-color);
+  font-family: var(--header-text);
+  color: white;
 }
 
 .sidebar {
   grid-row: 2 / 4;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
   background-color: var(--sidebar-bg-color);
+  gap: 15px;
+  padding: 15px;
+  margin: 0%;
 }
 
 .sidebar-con {
+  background-color: rgb(238, 234, 234);
 }
 
 .nav {
