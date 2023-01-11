@@ -36,6 +36,20 @@ body {
   color: white;
 }
 
+.header-logo {
+  font-size: 1.7rem;
+  padding: 10px;
+  margin: 0%;
+  text-align: left;
+}
+
+.header-content {
+  font-size: 1.2rem;
+  padding: 15px;
+  margin: 0%;
+  text-align: center;
+}
+
 .sidebar {
   grid-row: 2 / 4;
   display: grid;
@@ -71,8 +85,9 @@ body {
 
 .nav-con {
   font-family: var(--header-text);
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 300;
+  text-transform: uppercase;
   text-align: center;
   align-items: center;
 }
